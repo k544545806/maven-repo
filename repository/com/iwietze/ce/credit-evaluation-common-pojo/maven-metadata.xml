@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>com.iwietze.ce</groupId>
-  <artifactId>credit-evaluation-common</artifactId>
+  <artifactId>credit-evaluation-common-pojo</artifactId>
   <versioning>
     <release>2.0.0.RELEASE</release>
     <versions>
       <version>2.0.0.RELEASE</version>
     </versions>
-    <lastUpdated>20181210200730</lastUpdated>
+    <lastUpdated>20181210200742</lastUpdated>
   </versioning>
 </metadata>
