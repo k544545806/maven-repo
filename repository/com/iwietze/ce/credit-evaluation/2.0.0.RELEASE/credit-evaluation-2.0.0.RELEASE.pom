@@ -7,15 +7,12 @@
     <groupId>com.iwietze.ce</groupId>
     <artifactId>credit-evaluation</artifactId>
     <version>2.0.0.RELEASE</version>
-    <!--
-    <version>2.0.0-SNAPSHOT</version>
-    -->
     <modules>
         <module>CE-Common</module>
         <module>CE-Common-Mapper</module>
         <module>CE-Common-Pojo</module>
-        <module>CE-Service-SSO-Api</module>
-        <module>CE-Service-SSO</module>
+        <module>CE-Service-Sso-Api</module>
+        <module>CE-Service-Sso</module>
         <module>CE-Service-Acc-Api</module>
         <module>CE-Service-Acc</module>
         <module>CE-Service-Rmg-Api</module>
@@ -23,17 +20,15 @@
 
         <module>CE-Api-Web</module>
 
+        <!--
         <module>CE-Service-Cms-Api</module>
         <module>CE-Service-Cms</module>
         <module>CE-Web-Admin</module>
-
-        <!--
-        <module>CE-Api-Company</module>
         -->
     </modules>
     <packaging>pom</packaging>
 
-    <name>Credit-Evaluation</name>
+    <name>CreditEvaluation</name>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -411,6 +406,8 @@
         </dependencies>
     </dependencyManagement>
 
+
+
     <distributionManagement>
 
         <repository>
@@ -430,5 +427,7 @@
         </snapshotRepository>
 
     </distributionManagement>
+
+
 
 </project>
